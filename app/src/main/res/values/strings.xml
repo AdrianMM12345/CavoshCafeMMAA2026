@@ -8,4 +8,26 @@
     <string name="perfil">Perfil</string>
     <string name="carrito">Carrito</string>
     <string name="comenzar">Comenzar</string>
+    <string name="correo">Correo</string>
+    <string name="texto_header_login">Vamos a Iniciar Sesión</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="registrar">Registrar</string>
+    <string name="passwordd">Contraseña</string>
+    <string name="password_recovery">Recuperar contraseña</string>
+    <string name="texto_login">Inicia sesión usando</string>
+    <string name="content_description">contentDescription</string>
+    <string name="login">Login</string>
+    <string name="texto_facebook">texto_facebook</string>
+    <string name="texto_google">texto_google</string>
+    <string name="texto_apple">texto_apple</string>
+    <string name="no_tienes_una_cuenta">¿No tienes una cuenta?</string>
+    <string name="registrarse_ahora">Registrarse ahora</string>
+    <string name="texto_header_registrar">Vamos a registrarte</string>
+    <string name="nombres">Nombres</string>
+    <string name="tienes_una_cuenta">Tienes una cuenta</string>
+    <string name="confirmar_passwordd">Confirmar contraseña</string>
+    <string name="texto_registrar">Registrate usando</string>
+    <string name="cambiar">Cambiar</string>
+    <string name="texto_nuevo_inicio">Lo nuevo...</string>
+    <string name="texto_frecuentemente_ordenados">Frecuentemente ordenados...</string>
 </resources>
