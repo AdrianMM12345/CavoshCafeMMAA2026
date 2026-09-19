@@ -13,13 +13,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.List;
+
+import es.oaemdl.cavoshcafe2026.controller.ProductoController;
 import es.oaemdl.cavoshcafe2026.databinding.FragmentInicioBinding;
+import es.oaemdl.cavoshcafe2026.model.Producto;
 
 public class Inicio extends Fragment {
     FragmentInicioBinding binding;
     Context context;
     NavController navController;
     View view;
+    ProductoController controller;
+    List<Producto> productos;
 
     @Override
     public void onDestroyView() {
@@ -38,6 +44,9 @@ public class Inicio extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         context = getContext();
         navController = Navigation.findNavController( view );
+        controller = new ProductoController(context);
+        productosNuevos = controller.getProductos("true");
+        productosFrecuentes = controller.getProductos("false");
 
     }
 
